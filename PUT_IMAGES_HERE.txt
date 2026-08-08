@@ -1,0 +1,15 @@
+ASSETS REQUIRED
+
+Put these five PNG files into:
+app/src/main/res/drawable/
+
+1. gameplay.png
+2. player.png
+3. outer_joystick.png
+4. inner_joystick.png
+5. icon.png
+
+The Kotlin code is a direct Android custom-View conversion of the supplied Kivy
+main.py. The original Python source defines these four image resources and the
+joystick/player behavior. icon.png is used as the app's launcher icon
+(referenced in AndroidManifest.xml as android:icon="@drawable/icon").
